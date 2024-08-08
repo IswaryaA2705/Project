@@ -1,0 +1,39 @@
+.radial-chart-container {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between; /* Space items horizontally */
+    width: 100%;
+    height: 63px;
+  }
+  
+  .net-profit-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-grow: 0; 
+    margin-bottom: 0; 
+    margin-right: 20px; 
+  }
+  
+  .net-profit-title {
+    font-size: 10px; 
+    margin-bottom: 3px; 
+  }
+  
+  .net-profit-amount {
+    font-size: 25px; 
+    font-weight: bold;
+    margin-bottom: 3px; 
+  }
+  
+  .net-profit-increase {
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    color: green;
+  }
+  
+  .radial-chart {
+    transform: translate(0, -51%);
+    flex-shrink: 0; 
+  }

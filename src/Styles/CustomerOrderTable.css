@@ -1,0 +1,15 @@
+.status {
+    padding: 5px 10px;
+    border-radius: 15px;
+    color: white;
+    display: inline-block;
+  }
+  
+  .status-delivered {
+    background-color: green;
+  }
+  
+  .status-pending,
+  .status-cancelled {
+    background-color: red;
+  }

@@ -1,0 +1,50 @@
+.search {
+    position: relative;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.15);
+    margin-left: 16px;
+    margin-right: 16px;
+    width: 100%;
+  }
+  @media (min-width: 600px) {
+    .search {
+      margin-left: 50px;
+      width: auto;
+    }
+  }
+  
+  .searchIconWrapper {
+    padding: 0 16px;
+    height: 100%;
+    position: absolute;
+    pointer-events: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .styledInputBase {
+    color: inherit;
+    width: 100%;
+  }
+  .styledInputBase .MuiInputBase-input {
+    padding: 8px 8px 8px 0;
+    padding-left: calc(1em + 32px);
+    transition: width 300ms;
+  }
+  @media (min-width: 960px) {
+    .styledInputBase .MuiInputBase-input {
+      width: 20ch;
+    }
+  }
+ 
+  .app-bar {
+    width: calc(100% - 60px); 
+    left: 60px; 
+  }
+  
+  .app-bar-fixed {
+    position: fixed;
+    top: 0;
+  }
+  

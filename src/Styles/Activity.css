@@ -1,0 +1,27 @@
+h2 {
+    margin: 0;
+    font-size: 20px;
+  }
+  
+  .dropdownContainer {
+    display: flex;
+    align-items: center;
+  }
+  
+  .dropdownContainer label {
+    margin-right: 8px;
+    font-weight: bold;
+  }
+  
+  .dropdownContainer select {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  

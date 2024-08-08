@@ -1,0 +1,46 @@
+.card-item {
+    display: flex;
+    flex-direction: column;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    height: 82%;
+    width: 38%;
+  }
+  
+  .card-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px; 
+  }
+  
+  .card-image {
+    width: 40px; 
+    height: 30px; 
+  }
+  
+  .card-title {
+    margin-left: 10px;
+    font-size: 16px!important; 
+  }
+  
+  .card-value {
+    margin-left: 10px;
+    font-size: 16px!important;
+    font-weight: bold; 
+  }
+  
+  .card-percentage {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    font-size: 15px!important; 
+  }
+  
+  .card-arrow {
+    color: green;
+    margin-right: 5px;
+    font-size: 10px!important; 
+  }
